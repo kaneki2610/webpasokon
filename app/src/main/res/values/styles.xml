@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorMain</item>
+        <item name="colorPrimaryDark">@color/colorMain</item>
+        <item name="colorAccent">@color/colorMain</item>
+    </style>
+    <style name="textCab" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="menuItemColor" parent="AppTheme">
+        <item name="android:textColorPrimary">@color/colorMain</item>
+        <item name="drawerArrowStyle">@style/colorDrawerToggle</item>
+    </style>
+
+    <style name="colorDrawerToggle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/colorTrang</item>
+    </style>
+    <style name="ChangeColorRatingbar" parent="AppTheme">
+        <item name="colorControlNormal">@color/changeRating</item>
+    </style>
+    <style name="AppTabLayout" parent="Widget.Design.TabLayout">
+        <item name="android:layout_marginLeft">50dp</item>
+        <item name="android:layout_marginRight">50dp</item>
+    </style>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/txtDescrptionSPCT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/robotolight"
+        android:text="mo ta"
+        android:textColor="@color/colorDen"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_marginTop="-15dp"
+        android:id="@+id/linearReadMore"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/font_roboto_bold"
+            android:text="Read More "
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_marginTop="7dp"
+            android:layout_gravity="center"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@mipmap/baseline_expand_more_black_18dp" />
+    </LinearLayout>
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/imgLessMore"
+        android:layout_gravity="center"
+        android:src="@mipmap/baseline_expand_less_black_18dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp" />
+
+</LinearLayout>

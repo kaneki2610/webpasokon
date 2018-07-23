@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="430dp">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="430dp">
+            <android.support.v7.widget.RecyclerView
+                android:visibility="gone"
+                android:padding="10dp"
+                android:id="@+id/recycleView"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:layout_width="match_parent"
+                android:layout_height="430dp">
+
+            </android.support.v7.widget.RecyclerView>
+            <TextView
+                android:layout_marginTop="7dp"
+                android:id="@+id/txtEmpty"
+                android:layout_gravity="center"
+                android:textSize="30sp"
+                android:text="Cart is empty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </FrameLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <TextView
+        android:id="@+id/txtTien"
+        android:textSize="20sp"
+        android:textColor="@color/colorMain"
+        android:layout_marginTop="340dp"
+        android:layout_gravity="center"
+        android:text="222222222VND"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/btnFinish"
+        android:textAllCaps="false"
+        android:textColor="@color/colorChutRANG"
+        android:gravity="center"
+        android:text="Procceed To Checkout"
+        android:background="@color/colorMain"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</android.support.design.widget.CoordinatorLayout>

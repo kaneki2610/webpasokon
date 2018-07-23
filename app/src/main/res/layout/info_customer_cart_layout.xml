@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background_nen" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorTRan">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_marginBottom="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Thông tin khách hàng"
+                android:textColor="@color/colorChutRANG"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/edtNameKH"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorChutRANG"
+                android:drawableLeft="@mipmap/user"
+                android:drawablePadding="10dp"
+                android:hint="Tên khách hàng"
+                android:textColorHint="@color/colorChutRANG"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/edtAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorChutRANG"
+                android:drawableLeft="@mipmap/location"
+                android:drawablePadding="10dp"
+                android:hint="Địa chỉ giao hàng"
+                android:maxLines="2"
+                android:scrollbars="vertical"
+                android:textColorHint="@color/colorChutRANG"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/edtPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorChutRANG"
+                android:drawableLeft="@mipmap/smartphone"
+                android:drawablePadding="10dp"
+                android:hint="Số điện thoại"
+                android:numeric="integer"
+                android:textColorHint="@color/colorChutRANG"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tùy chọn giào hàng"
+                    android:textColor="@color/colorChutRANG"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="1dp"
+                    android:src="@mipmap/download" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@color/colorTRan"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imDeliveryFast"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@color/colorTRan"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/delivery" />
+
+                <ImageButton
+                    android:id="@+id/imVisa"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="55dp"
+                    android:background="@color/colorTRan"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/visa" />
+            </LinearLayout>
+                <CheckBox
+                    android:id="@+id/chkDongY"
+                    android:buttonTint="@color/colorChutRANG"
+                    android:backgroundTint="@color/colorChutRANG"
+                    android:layout_marginTop="15dp"
+                    android:textSize="20sp"
+                    android:text="Tôi cam kết các thông tin trên là hoàn toàn chính xác"
+                    android:textColor="@color/colorChutRANG"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnFinishPayment"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                android:textColor="@color/colorMain"
+                android:text="Finish Payment"
+                android:background="@drawable/background_addcart2"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

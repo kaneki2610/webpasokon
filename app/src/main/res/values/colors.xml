@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorToolBar">#64B5F6</color>
+    <color name="colorTrang">#FFF</color>
+    <color name="colorDen">#262424</color>
+    <color name="colorDen2">#262424</color>
+    <color name="test">#0f9d58</color>
+    <color name="test_chu">#7bc9a3</color>
+    <color name="colorChutRANG">#ffffff</color>
+    <color name="colorGray">#c7bfbf</color>
+    <color name="colorMain">#28C76F</color>
+    <color name="colorGrayIncreee">#CFD8DC</color>
+    <color name="colorGray1">#bdc1c2</color>
+    <color name="changeRating">#DE4313</color>
+    <color name="colorTRan">#D928C76F</color>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+
+
+    <item android:icon="@mipmap/ic_add_shopping_cart_black_24dp"
+        app:showAsAction="always"
+        android:title="giohang"
+        android:id="@+id/itemCart"
+        app:actionLayout="@layout/customcart_layout"
+        ></item>
+
+    <item
+        app:showAsAction="always"
+        android:title="menu"
+        android:icon="@mipmap/ic_more_vert_black_36dp"
+        >
+      <menu>
+          <item
+              android:id="@+id/itemLogin"
+              android:title="Đăng nhập"
+              android:icon="@mipmap/ic_account_box_black_24dp"
+              ></item>
+          <item
+              android:title="Giỏ hàng"
+              android:icon="@mipmap/ic_add_shopping_cart_black_24dp"
+              ></item>
+          <item
+              android:title="Thông báo"
+            android:icon="@mipmap/ic_add_alert_black_24dp"
+              ></item>
+          <item
+              android:title="Hướng dẫn"
+            android:icon="@mipmap/ic_mood_black_24dp"
+              ></item>
+          <item
+              android:id="@+id/itemSetting"
+              android:title="Cài đặt"
+              android:icon="@mipmap/ic_settings_black_24dp"
+              ></item>
+          <item
+              android:visible="false"
+              android:id="@+id/itemLogout"
+              android:title="Đăng xuất"
+              android:icon="@mipmap/ic_account_box_black_24dp">
+
+          </item>
+      </menu>
+    </item>
+
+
+</menu>
